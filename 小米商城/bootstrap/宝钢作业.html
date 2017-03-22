@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="王朋涛">
+        <title></title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            main
+            {
+                width: 1140px;
+                margin: 0px auto;
+            }
+            .a1
+            {
+                width: 370px;
+                height: 300px;
+                /*border: 1px solid black;*/
+                background-color: gray;
+            }
+             .a2
+            {
+               width: 370px;
+               height: 300px;
+               background-color: gray;
+               float: right;
+               margin-top: -300px;
+               margin-right: 385px;
+            }
+              .a3
+            {
+               width: 370px;
+               height: 300px;
+               background-color: gray;
+               float: right;
+               margin-top: -300px;
+               /*margin-right: 380px;*/
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <!--1.导航条的logo和汉堡包菜单键  -->
+        <div class="navbar-header">
+          <!--窗口缩小时，出现在右侧的 汉堡包菜单键-->
+          <!--data-*: 这些属性都是有关页面交互的。
+          data-toggle：事件的触发
+          data-target：事件的目标对象，这个属性一般通过id与导航条中的选项绑定在一起-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-nav-item" aria-expanded="false">
+            <!--<span class="sr-only">Toggle navigation</span>-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--展示在导航条左侧的logo-->
+          <a class="navbar-brand" href="#"><img src="../作业 宝钢效果/image/logo.png" alt="logo" style="margin-top: -20px"></a>
+        </div>
+        
+        <!--2. 导航条的所有选项 -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="my-nav-item">
+          <!--2-1.  -->
+          <ul class="nav navbar-nav">
+            <!--.active:  默认被选中的一个选项-->
+            <li class="active"><a href="#" style="border-bottom: 2px solid blue;padding-bottom: 8px;">首页 </a></li>
+            <li><a href="#">媒体中心</a></li>
+            <li >
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">业务板块</a></li>
+                <li><a href="#">产品服务</a></li>
+               
+            </li>
+          </ul>
+
+         
+          <form class="navbar-form navbar-right visible-lg-block visible-md-block">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search here..." >
+            </div>
+          </form>
+    </nav>
+    <div class="container-fluid">
+      <img src="../作业 宝钢效果/image/banner.png" alt="" style="width: 100%;margin-top: -50px;">
+    </div>
+    
+    <main>
+        <div class="col-sm-12 col-md-4" >
+            <img src="../作业 宝钢效果/image/news.png" alt="" style="height: 100px; padding: 10px;">
+            <span><span style="font-size: 20px;">政府部门参观研发中心</span><br>5月18日，一场盛大的创维酷开手机品牌启动于新品发布经销商大会在深圳手石岩隆重召开</span>
+        </div>
+         <div class="col-sm-12 col-md-4">
+            <img src="../作业 宝钢效果/image/news.png" alt="" style="height: 80px;">
+            <span><span style="font-size: 20px;">政府部门参观研发中心</span><br>5月18日，一场盛大的创维酷开手机品牌启动于新品发布经销商大会在深圳手石岩隆重召开</span>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <img src="../作业 宝钢效果/image/news.png" alt="" style="height: 80px;">
+            <span><span style="font-size: 20px;">政府部门参观研发中心</span><br>5月18日，一场盛大的创维酷开手机品牌启动于新品发布经销商大会在深圳手石岩隆重召开</span>
+        </div>
+    </main>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
